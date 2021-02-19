@@ -1,0 +1,18 @@
+.container-fluid-reg{
+    display: flex;   
+}
+
+@media (max-width:765px){
+    .container-fluid-reg{
+        flex-direction: column;
+    }
+    .card-change{
+        width: 90% !important;
+        margin-left: 20px !important;
+    }
+}
+
+.card-change{
+    width: 35%;
+    margin-left: 30px;
+}
