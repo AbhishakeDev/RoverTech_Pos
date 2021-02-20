@@ -20,13 +20,13 @@ $pdf = new FPDF('P','mm',array(80,200));
 $pdf->AddPage();
 
 $pdf->SetFont('Arial','B',16);
-$pdf->Cell(60,8,'Cybarg Inc',1,1,'C');
+$pdf->Cell(60,8,'RoverTech Inc',1,1,'C');
 
 $pdf->SetFont('Arial','B',8);
 $pdf->Cell(60,5,"Address : Kamta , faizabad road , Lucknow",0,1,'C');
 $pdf->Cell(60,5,"Phone Number : +91-6393122939",0,1,'C');
 $pdf->Cell(60,5,"Email-Address : abhishekt.1181@gmail.com",0,1,'C');
-$pdf->Cell(60,5,"Website : www.cybarg.com ",0,1,'C');
+$pdf->Cell(60,5,"Website : www.rovertech.com ",0,1,'C');
 
 
 //Line(x1,y1,x2,y2)

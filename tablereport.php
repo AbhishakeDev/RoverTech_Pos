@@ -1,11 +1,11 @@
 <?php
-include_once 'connectdb.php';
+include_once 'connectdb.php';session_start();
 error_reporting(0);
 if ($_SESSION['useremail'] == "" or $_SESSION['role'] == 'User') {
   header('location:index.php');
 }
 
-session_start();
+
 include_once 'header.php'; ?>
   
 
@@ -26,7 +26,7 @@ include_once 'header.php'; ?>
     <!-- Main content -->
     <div class="content">
       <div class="container-fluid">
-      <div style="width:100%;height:100vh;padding:20px;" class="card">
+      <div style="width:100%;height:auto;padding:20px;" class="card">
       <h1 style="margin-bottom: 20px;font-size:20px;"> From :  <?php echo $_POST['date_1']?> ----------------- To :  <?php echo $_POST['date_2']?></h1>
       <form role="form" method="post" action="">
       <div class="row">
@@ -120,6 +120,7 @@ include_once 'header.php'; ?>
       <br>
       <br>
 <!-- table -->
+<div style="overflow-x:auto;margin:30px 0;padding:30px">
 <table class="table table-striped" id="salesreporttable">
         <thead>
           <tr>
@@ -170,6 +171,7 @@ include_once 'header.php'; ?>
           ?>
         </tbody>
       </table>
+      </div>
 </form>
 
 

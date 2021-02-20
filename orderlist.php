@@ -29,7 +29,7 @@ if ($_SESSION['role'] == 'Admin') {
     <!-- Main content -->
     <div class="content">
       <div class="container-fluid">
-      <div style="width:100%;height:100vh;" class="card">
+      <div style="width:100%;height:auto;" class="card">
       <div style="overflow-x:auto;margin:30px 0;padding:30px">
       <table class="table table-striped" id="orderlisttable">
         <thead>
@@ -63,7 +63,8 @@ if ($_SESSION['role'] == 'Admin') {
                       <td>' . $row->due . '</td>
                       <td>' . $row->payment_type . '</td>
                       <td>
-                      <a target="_blank" href="invoice_80mm.php?id=' . $row->invoice_id . '" data-toggle="tooltip" title="Print Invoice" class="btn btn-warning" role="button"><i class="fas fa-print"></i></a>
+                      <a target="_blank" href="invoice_80mm.php?id=' . $row->invoice_id . '" data-toggle="tooltip" title="Thermal Print Invoice" class="btn btn-warning" role="button"><i class="fas fa-print"></i></a>
+                      <a target="_blank" href="invoice_db.php?id=' . $row->invoice_id . '" data-toggle="tooltip" title="Normal Print Invoice" class="btn btn-success" role="button"><i class="fas fa-print"></i></a>
                       </td>
                       <td>
                       <a href="editorder.php?id=' . $row->invoice_id . '"  data-toggle="tooltip" title="Edit Order" class="btn btn-info" role="button"><i class="fas fa-edit"></i></a>

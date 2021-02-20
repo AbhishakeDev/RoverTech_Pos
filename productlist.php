@@ -30,7 +30,7 @@ include_once 'header.php'; ?>
   <!-- Main content -->
   <div class="content">
     <div class="container-fluid">
-      <div style="width:100%;height:100vh;" class="card">
+      <div style="width:100%;height:auto;" class="card">
       <div style="overflow-x:auto;margin:30px 0;padding:30px">
       <table class="table table-striped" id="producttable">
         <thead>

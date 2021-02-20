@@ -244,7 +244,7 @@ if ($_SESSION['role'] == 'Admin') {
                     <!-- /.col-md-6 -->
                 </div>
                 <hr>
-                <div align="center">
+                <div style="margin-bottom: 20px;" align="center">
                     <input type="submit" name="btnsaveorder" value="Save Order" class="btn btn-info">
                 </div>
             </form>

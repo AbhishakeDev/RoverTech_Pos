@@ -1,3 +1,11 @@
+This Project is created By Abhishek Tripathi
+This is Point Of Sale Project based upon restaurant , hospital , e-commerce management based facilities allowing user and admin to interact easily.
+The admin panel is designed tottaly keeping in mind the sales in his/her business and statistics displayed via ChartJS
+
+More functionalities like Chat between admin and user etc will be added soon..
+
+Thank You!
+
 # Introduction
 
 [![npm version](https://img.shields.io/npm/v/admin-lte/latest.svg)](https://www.npmjs.com/package/admin-lte)

@@ -129,14 +129,15 @@ $email=$_SESSION['useremail'];
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
+  <center>
+<div style="width:100%;height:auto;padding:10px;" class="card">
+
     <!-- Content Header (Page header) -->
-    <div class="content-header">
+    <div style="margin-bottom: 30px;" class="content-header">
       <div class="container-fluid">
-        <div class="row mb-2">
-          <div class="col-sm-6">
+        
             <h1 class="m-0">Change Password Panel</h1>
-          </div><!-- /.col -->
-        </div><!-- /.row -->
+         
       </div><!-- /.container-fluid -->
     </div>
     <!-- /.content-header -->
@@ -145,7 +146,7 @@ $email=$_SESSION['useremail'];
     <div class="content">
       <div class="container-fluid">
         <div class="card card-change card-primary">
-              <div class="card-header">
+              <div  class="card-header">
                 <h3 class="card-title">Change Password</h3>
               </div>
               <!-- /.card-header -->
@@ -175,6 +176,8 @@ $email=$_SESSION['useremail'];
       </div><!-- /.container-fluid -->
     </div>
     <!-- /.content -->
+    </div>
+    </center>
   </div>
   <!-- /.content-wrapper -->
 

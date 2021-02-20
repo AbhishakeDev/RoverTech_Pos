@@ -181,6 +181,7 @@ if(isset($_POST['btndelete'])){
 <!-- Main content -->
 <div class = "content">
 <div class = "container-fluid">
+<div style="width:100%;height:auto;padding:10px;" class="card">
 
 <!-- form start -->
 <form role = "form" method = "post" action = "">
@@ -279,6 +280,7 @@ while( $row = $select->fetch( PDO::FETCH_OBJ ) ) {
 </div>
 </div>
 </form>
+</div>
 </div><!-- /.container-fluid -->
 </div>
 <!-- /.content -->

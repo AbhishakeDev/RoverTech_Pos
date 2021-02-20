@@ -35,7 +35,7 @@ $pdf = new FPDF('P','mm','A4');
 $pdf->AddPage();
 // $pdf->SetFillColor(123,255,234); for backgorund color
 $pdf->SetFont('Arial','B',16);//2nd aggument can be BIU B for bold I for italics and U for underline
-$pdf->Cell(80,10,'Cybarg Inc',0,0,'');
+$pdf->Cell(80,10,'RoverTech Inc',0,0,'');
 
 $pdf->SetFont('Arial','B',13);
 $pdf->Cell(112,10,"Invoice : ".$row->invoice_id,0,1,'C');
@@ -54,7 +54,7 @@ $pdf->Cell(112,5,"Date : ".$row->order_date,0,1,'C');
 
 $pdf->SetFont('Arial','',8);
 $pdf->Cell(80,5,"Email-Address : abhishekt.1181@gmail.com",0,1,'');
-$pdf->Cell(80,5,"Website : www.cybarg.com ",0,1,'');
+$pdf->Cell(80,5,"Website : www.rovertech.com ",0,1,'');
 
 //Line(x1,y1,x2,y2)
 $pdf->Line(5,10,205,10);

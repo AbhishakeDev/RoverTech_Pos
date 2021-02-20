@@ -60,7 +60,7 @@ include_once 'header.php'; ?>
           }
         //   echo json_encode($total);
               ?>
-        <canvas id="myChart" width="400" height="200"></canvas>
+        <canvas id="myChart" width="200" height="100"></canvas>
           <br>
         <!-- For best sold product -->
         <?php
@@ -78,7 +78,7 @@ include_once 'header.php'; ?>
           }
         //   echo json_encode($total);
               ?>
-        <canvas id="Bestsellingproduct" width="400" height="200"></canvas>
+        <canvas id="Bestsellingproduct" width="200" height="100"></canvas>
 
         </div>
       </div><!-- /.container-fluid -->
@@ -117,7 +117,7 @@ var chart = new Chart(ctx, {
 var ctx = document.getElementById('Bestsellingproduct').getContext('2d');
 var chart = new Chart(ctx, {
     // The type of chart we want to create
-    type: 'bar',
+    type: 'line',
 
     // The data for our dataset
     data: {
